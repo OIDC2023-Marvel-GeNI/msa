@@ -14,3 +14,17 @@
 프로젝트에서 AI, EDA, 클라우드 네이티브를 핵심기술로 사용합니다. 
 
 저희는 해당 프로젝트를 통해 AI 분석, EDA, 클라우드 네이티브를 직접 경험해보는 것이 목표입니다. EDA를 통해 실시간 데이터 처리를, AI 분석을 통해 다양한 데이터를 처리하고 개인 맞춤형 처리를 클라우드 네이티브 환경을 통해 컨테이너, MSA, CI/CD 등을 직접 구현해보며 저희의성장을 도모하는데 최종 목표를 두고 있습니다.
+
+<!--
+## <div align="center">Environment</div>
+Oracle, Docker, k8s
+
+
+## <div align="center">Skills</div>
+JAVA, Springboot, AI, kafka, React-Native
+
+
+## <div align="center">Contributor</div>
+이나영, 박희원
+
+-->
