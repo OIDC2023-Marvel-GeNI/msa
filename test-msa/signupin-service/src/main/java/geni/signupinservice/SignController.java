@@ -1,4 +1,4 @@
-package geni.authservice;
+package geni.signupinservice;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -6,20 +6,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
 @Slf4j
 @RestController
 @RequestMapping("/test")
-public class AuthController {
-
-    @GetMapping("/auth-service")
+public class SignController {
+    @GetMapping("/signupin-service")
     public ResponseEntity<?> getNoticeList(){
         try {
-            return ResponseEntity.ok().body("***auth-service*** api 호출됨");
+            return ResponseEntity.ok().body("***signupin-service*** api 호출됨");
         }catch (Exception e){
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
-
 }
